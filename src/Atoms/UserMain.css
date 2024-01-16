@@ -1,0 +1,36 @@
+.user-container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+  gap: 1rem;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.user-container:hover {
+  background-color: rgb(230, 224, 224);
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 32px; /* Adjust the width as needed */
+  height: 32px; /* Adjust the height as needed */
+}
+
+.user-name {
+    font-weight: bold;
+    width: 30%;
+    text-align: left;
+}
+
+.user-email {
+  width: fit-content;
+  text-align: left;
+}
+
+.user-name, .user-email {
+    font-size: 12px;
+}

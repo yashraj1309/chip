@@ -1,0 +1,34 @@
+.selected-user {
+    box-sizing: border-box;
+    display: flex;
+    gap: .6rem;
+    background-color: rgb(230, 224, 224);
+    font-size: 14px;
+    width: fit-content;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    height: 24px;
+    margin: 5px;
+}
+
+.selected-user > img {
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+}
+
+.selected-user > svg {
+    margin-right: 5px;
+    cursor: pointer;
+    transition: .1s;
+}
+.selected-user > svg:hover {
+    background-color: rgba(128, 128, 128, 0.541);
+    border-radius: 50%;
+}
+
+
+.highlighted-item {
+    border: 1.5px solid black;
+}

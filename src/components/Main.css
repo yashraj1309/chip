@@ -1,0 +1,62 @@
+.auto-complete {
+  position: relative;
+  width: 80%;
+  margin: 24px auto;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #007bff;
+}
+.auto-complete-container {
+  position: relative;
+}
+
+input {
+  width: 200px;
+  margin-bottom: 8px;
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  height: 24px;
+  border: none;
+  outline: none;
+  padding-top: 5px;
+}
+
+.auto-complete-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 420px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  max-height: 350px;
+  overflow-y: auto;
+  padding-top: 1rem;
+   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2); /* Adjust the values as needed */
+}
+
+.auto-complete-item {
+  padding: 8px;
+  cursor: pointer;
+  &:hover {
+    background-color: #f0f0f0;
+  }
+}
+
+.selected-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.selected-item {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4px 8px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
