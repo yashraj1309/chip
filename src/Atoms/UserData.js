@@ -1,9 +1,11 @@
+// Images Can be Updated : For prototype used same image 
+
 export let userData = [
   {
     id: 1,
     name: "John Doe",
     profilePhoto:
-      "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg",
+      "https://sp-images.summitpost.org/947006.jpg?auto=format&fit=max&ixlib=php-2.1.1&q=35&w=1024&s=d877834568578388ef13b78e3cd7ba2b",
     email: "john.doe@example.com",
   },
   {
@@ -17,7 +19,7 @@ export let userData = [
     id: 3,
     name: "Michael Johnson",
     profilePhoto:
-      "https://d2qp0siotla746.cloudfront.net/img/use-cases/profile-picture/template_3.jpg",
+      "https://sp-images.summitpost.org/947006.jpg?auto=format&fit=max&ixlib=php-2.1.1&q=35&w=1024&s=d877834568578388ef13b78e3cd7ba2b",
     email: "michael.johnson@example.com",
   },
   {
