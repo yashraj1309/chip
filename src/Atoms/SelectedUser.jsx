@@ -3,7 +3,7 @@ import './SelectedUser.css';
 
 export default function SelectedUser(user) {
   return (
-    <div className={`selected-user ${user.highlighted && "highlighted-item"}`}>
+    <div className={`selected-user ${user.highlighted && "highlighted-item"}`} key={user.key}>
       <img src={user.image} alt="profile" />
       <div>{user.name}</div>
       <svg

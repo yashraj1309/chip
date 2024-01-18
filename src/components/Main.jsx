@@ -103,9 +103,9 @@ const Main = () => {
   return (
     <div className="auto-complete">
       <div className="selected-items">
-        {selectedItems.map((item, index) => (
+        {selectedItems.map((item) => (
           <SelectedUser
-            key={index}
+            key={item.id}
             image={item.profilePhoto}
             name={item.name}
             highlighted={item.highlighted ? true : false}
