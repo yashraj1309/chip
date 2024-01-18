@@ -34,3 +34,21 @@
 .user-name, .user-email {
     font-size: 12px;
 }
+
+  /* Mobile Screens */
+  @media only screen and (max-device-width: 812px) {
+    input {
+      margin-bottom: 0;
+    }
+    .user-name {
+      width: auto;
+    } 
+    .user-container {
+      flex-wrap: wrap;
+      border-bottom: .5px solid silver;
+    }
+    .user-container:last-child {
+      border-bottom: none;
+    }
+  }
+

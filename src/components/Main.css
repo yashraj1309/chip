@@ -1,6 +1,6 @@
 .auto-complete {
   position: relative;
-  width: 80%;
+  width: 70%;
   margin: 24px auto;
   display: flex;
   align-items: center;
@@ -52,11 +52,12 @@ input {
   flex-wrap: wrap;
 }
 
-.selected-item {
-  background-color: #007bff;
-  color: #fff;
-  padding: 4px 8px;
-  margin: 4px;
-  border-radius: 4px;
-  cursor: pointer;
+
+  /* Mobile Screens */
+  @media only screen and (max-device-width: 812px) {
+.auto-complete-list { 
+  top: 155%;
+    width: 130%;
 }
+
+  }

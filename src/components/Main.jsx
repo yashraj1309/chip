@@ -4,7 +4,7 @@ import {userData} from '../Atoms/UserData'
 import UserMain from "../Atoms/UserMain";
 import SelectedUser from "../Atoms/SelectedUser";
 
-const AutoComplete = () => {
+const Main = () => {
   const [inputValue, setInputValue] = useState("");
   const [filteredItems, setFilteredItems] = useState([]);
   const [selectedItems, setSelectedItems] = useState([]);
@@ -141,4 +141,4 @@ const AutoComplete = () => {
   );
 };
 
-export default AutoComplete;
+export default Main;
